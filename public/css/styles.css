@@ -1,0 +1,62 @@
+html { 
+    background-color: #ffffff;
+    overflow-x: hidden;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body { 
+    color: #0f1941;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body{
+	padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+#app, #root, content{
+    height: inherit;
+}
+
+.header{
+    background-color: #0f1941;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header img{
+    width: 220px;
+}
+
+.header p{
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0;
+}
+
+.main-title{
+    text-align: center;
+    margin: 32px 16px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.select-component label{
+    margin: 0 8px;
+    font-weight: 500;
+}
+
+.select-component select{
+    display: inline-block;
+    width: auto;
+}
+
+/* You can add your style here */
