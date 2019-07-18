@@ -26,14 +26,20 @@ Now it's your turn!
 The workshop was already presented and now you have to develop the project yourself.
 
 You are going to use two end-points to get all the needed data.
-- [Professionals list]()
-- [Positions type]()
+- [Professionals list](http://www.mocky.io/v2/5d2c779e3100005200f5a948)
+- [Positions type](http://www.mocky.io/v2/5d30565d32000092012043cc)
 
-You can follow the layout available at [Zeplin]() or you can also be creative and do your own design! Feel free to use any CSS library you want to (Bootstrap is already in the project).
+You can follow the layout available at [Zeplin](https://zpl.io/VKjmPq7) or you can also be creative and do your own design! Feel free to use any CSS library you want to (Bootstrap is already in the project).
 
 Now you need to develop some filters:
 - Filtering by position (using the given end-point)
-- Order by selection (you are going to find more about it inside the code)
+- Filtering by availability
+    - Assignment property: 
+        - 'available' = 'none'
+        - 'unavailable' != 'none'
+- Order by (you are going to find more about it inside the code)
 
-It has been also created some components to help you on your develop journey. 
+Icons and flags of all contries are already available in the project.
+
+It has been also created some components to help you on your develop journey.
 Don't forget: the simplest components, the best.

@@ -1,12 +1,5 @@
 import request from 'axios';
-import { API_URL, GET, POST } from "./action-types";
-
-export function funcPost(obj) {
-    return {
-        type: POST,
-        promise: request.post(API_URL + 'add_end_point', obj)
-    }
-}
+import { API_URL, GET } from "./action-types";
 
 export function funcGet() {
     return dispatch => {
@@ -15,6 +8,10 @@ export function funcGet() {
                 dispatch(setReducer(GET, response.data));
             });
     }
+}
+
+export function filterDevs() {
+    //write your code here
 }
 
 function setReducer(type, data) {

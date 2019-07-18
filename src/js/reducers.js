@@ -1,11 +1,13 @@
 import { GET } from "./action-types";
 const initialState = {
     test: [],
-    orderBy:[
+    orderBy: [
         {value: "nameAsc", name: "Name Asc"},
-        {value: "nameDesc", name: "Name Desc"},
-        {value: "positionAsc", name: "Position Asc"},
-        {value: "positionDesc", name: "Position Desc"}
+        {value: "nameDesc", name: "Name Desc"}
+    ],
+    availability: [
+        {value: "available", name: "Available"},
+        {value: "unavailable", name: "Unavailable"}
     ]
 };
 

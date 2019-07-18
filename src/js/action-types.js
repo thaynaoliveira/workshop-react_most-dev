@@ -1,3 +1,2 @@
+export const API_URL = "http://www.mocky.io/v2/";
 export const GET = "GET";
-export const POST = "POST";
-export const API_URL = "";
