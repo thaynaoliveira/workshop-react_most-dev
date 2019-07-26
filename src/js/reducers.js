@@ -1,4 +1,4 @@
-import { GET } from "./action-types";
+import { GET, PROFESSIONAL_LIST } from "./action-types";
 const initialState = {
     test: [],
     orderBy: [
@@ -8,13 +8,16 @@ const initialState = {
     availability: [
         {value: "available", name: "Available"},
         {value: "unavailable", name: "Unavailable"}
-    ]
+    ],
+    professionalList: []
 };
 
 function rootReducer(state = initialState, action) {
     switch (action.type) {
         case GET:
             return Object.assign({}, state, { test: action.payload });
+        case PROFESSIONAL_LIST:
+            return Object.assign({}, state, { professionalList: action.payload });
         default:
             break;
     }
